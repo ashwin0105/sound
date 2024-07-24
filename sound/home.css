@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("log.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+.sec2{
+    display:inline-block;
+    width: 100vw;
+    height: 50vh;
+
+}
+.sec2 p{
+    font-size: 40px;
+    text-align: center;
+}
+.program{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.program button{
+    
+    display:inline-block;
+    position: relative;
+    top: 200px;
+    margin-top: 3%;
+    width:200px;
+    height: 100px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #343399;
+    transition: width 2s, height 2s, transform 2s;
+}
+button img{
+    
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+button:hover{
+    box-shadow: 5px 10px 18px red;
+    transform: rotate(360deg);
+}
